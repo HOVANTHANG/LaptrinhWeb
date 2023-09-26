@@ -915,6 +915,10 @@ section {
     font-size: 2rem;
     padding: 1rem 0;
 }
+.menu .box-container .box h4 {
+    color: #fff;
+    padding: 1rem 0;
+}
 
 .menu .box-container .box .price {
     color: #fff;
