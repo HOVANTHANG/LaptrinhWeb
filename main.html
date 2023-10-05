@@ -8,8 +8,13 @@
     <!-- link phông chữ  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="cafecss.css">
+     <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
+     <!-- Latest compiled JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -22,16 +27,35 @@
         </a>
 
 
-        <nav class="navbar">
-            <a href="#home">Trang Chủ</a>
-            <a href="#about">Giới Thiệu</a>
-            <a href="#menu">Menu</a>
-            <a href="#sanpham">Sản Phẩm</a>
-            <a href="#danhgia">Đánh Giá</a>
-            <a href="#lienhe">Phản Hồi</a>
-            <a href="#trang">blogs</a>
-            <a href="#ket">👍</a>
-        </nav>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link</a></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                      <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <!-- icon -->
         <div class="icons">
             <div class="fas fa-search" id="search-btn"></div>
@@ -93,40 +117,13 @@
     <!-- kết thúc tiêu đề -->
     <!-- bắt đâuù trang chủ  -->
 
-    <section class="home" id="home">
-
-        <div class="content">
-            <h3>Cà phê sáng</h3>
-            <img src="cafe.png" alt="">
-            <a href="#" class="btn">get it now</a>
-        </div>
-    </section>
-
-    <!-- about  -->
-    <section class="about" id="about">
-        <h1 class="heading"> <span>giới thiệu </span>!!!</h1>
-        <div class="row">
-            <div class="image">
-                <img src="nen3.jpg" alt="">
-            </div>
-
-            <div class="content">
-                <h3>Điều gì khiến cà phê chúng tôi trở nên đặc biệt ?</h3>
-                <p>👉 nghĩ nội dung!</p>
-                <p>👉 nghĩ nội dung!!</p>
-                <a href="#" class="btn">học thêm</a>
-            </div>
-        </div>
-
-    </section>
-
     <!-- menu  -->
     <section class="menu" id="menu">
 
         <h1 class="heading">our <span>menu</span></h1>
         <div class="box-container">
             <div class="box">
-                <img src="1.jpg" alt="">
+                <img src="//product.hstatic.net/1000075078/product/1675357918_cloudfee-hanh-nhan-nuong-min_5878cf79201a4742a022b038076b3c68_large.png" alt="">
                 <h3>CaFe đen</h3>
                 <h4>(Cà phê nguyên chất)</h4>
                 <div class="price">$100 <span>200</span></div>
@@ -134,7 +131,7 @@
             </div>
 
             <div class="box">
-                <img src="2.jpg" alt="">
+                <img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/1669736893_hi-tea-vai_06cc9054fb7e4cf5a56649703b9a8a51_large.png" data-src="//product.hstatic.net/1000075078/product/1669736893_hi-tea-vai_06cc9054fb7e4cf5a56649703b9a8a51_large.png" alt="hi tea vai">
                 <h3>Cà phê Trứng</h3>
                 <h4>(Béo ngậy thơm ngon)</h4>
                 <div class="price">$100 <span>200</span></div>
@@ -143,7 +140,7 @@
 
 
             <div class="box">
-                <img src="4.jpg" alt="">
+                <img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/1669736835_ca-phe-sua-da_420319c0ee4d460a8dc5e287b951e405_large.png" data-src="//product.hstatic.net/1000075078/product/1669736835_ca-phe-sua-da_420319c0ee4d460a8dc5e287b951e405_large.png" alt="ca phe sua da">
                 <h3>Cà Phê Sữa</h3>
                 <h4>(vị dắng cafe hòa vị ngọt sữa)</h4>
                 <div class="price">$100 <span>200</span></div>
@@ -152,7 +149,7 @@
 
 
             <div class="box">
-                <img src="3.jpg" alt="">
+                <img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/1696220170_phin-sua-tuoi-banh-flan_3d3873099d1a4de08335edc70f1cccc4_large.jpg" data-src="//product.hstatic.net/1000075078/product/1696220170_phin-sua-tuoi-banh-flan_3d3873099d1a4de08335edc70f1cccc4_large.jpg" alt="phin sua tuoi banh flan">
                 <h3>Trà Sữa Matcha</h3>
                 <h4>(Tươi mát,ngon tuyệt vời)</h4>
                 <div class="price">$100 <span>200</span></div>
@@ -160,7 +157,7 @@
             </div>
 
             <div class="box">
-                <img src="5.jpg" alt="">
+                <img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/1696220139_tra-xanh-espresso-marble_6645d935c1b84d9aa4909c38a8560d6c_large.jpg" data-src="//product.hstatic.net/1000075078/product/1696220139_tra-xanh-espresso-marble_6645d935c1b84d9aa4909c38a8560d6c_large.jpg" alt="tra xanh espresso marble">
                 <h3>Trà Sữa việt quất</h3>
                 <h4>(Uống là mê)</h4>
                 <div class="price">$100 <span>200</span></div>
@@ -168,185 +165,69 @@
             </div>
 
             <div class="box">
-                <img src="6.jpg" alt="">
+                <img class=" ls-is-cached lazyloaded" src="//product.hstatic.net/1000075078/product/1686716532_dd-suada_6053980e5bff4947b65fcd6e535c4705_large.jpg" data-src="//product.hstatic.net/1000075078/product/1686716532_dd-suada_6053980e5bff4947b65fcd6e535c4705_large.jpg" alt="duong den sua da">
                 <h3>Trà sữa full toping</h3>
                 <h4>(Thả ga lựa chon!)</h4>
                 <div class="price">$100 <span>200</span></div>
                 <a href="#" class="btn">buy</a>
             </div>
             <div class="box">
-                <img src="7.jpg" alt="">
+                <img class=" ls-is-cached lazyloaded" src="//product.hstatic.net/1000075078/product/1639377770_cfsua-nong_f2bb974390e74f10b6949773a1627375_large.jpg" data-src="//product.hstatic.net/1000075078/product/1639377770_cfsua-nong_f2bb974390e74f10b6949773a1627375_large.jpg" alt="ca phe sua nong">
                 <h3>Cà Phê</h3>
                 <div class="price">$100 <span>200</span></div>
                 <a href="#" class="btn">buy</a>
             </div>
             <div class="box">
-                <img src="8.jpg" alt="">
+                <a href="/products/bac-siu" title="Bạc Sỉu"><img class=" ls-is-cached lazyloaded" src="//product.hstatic.net/1000075078/product/1639377904_bac-siu_1b89c9285a414913a152f93277991c74_large.jpg" data-src="//product.hstatic.net/1000075078/product/1639377904_bac-siu_1b89c9285a414913a152f93277991c74_large.jpg" alt="bac siu"></a>
                 <h3>Bánh kem tình yêu</h3>
                 <div class="price">$100 <span>200</span></div>
                 <a href="#" class="btn">buy</a>
             </div>
             <div class="box">
-                <img src="9.png" alt="">
+                <a href="/products/duong-den-marble-latte" title="Đường Đen Marble Latte"><img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/1686716537_dd-latte_e10fbeb0a9be4002844d9203fcab907e_large.jpg" data-src="//product.hstatic.net/1000075078/product/1686716537_dd-latte_e10fbeb0a9be4002844d9203fcab907e_large.jpg" alt="duong den marble latte"></a>
                 <h3>Bánh Single</h3>
                 <div class="price">$100 <span>200</span></div>
                 <a href="#" class="btn">buy</a>
             </div>
             <div class="box">
-                <img src="10.jpg" alt="">
+                <a href="/products/caramel-macchiato-da" title="Caramel Macchiato Đá"><img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/caramel-macchiato_143623_b580838a914048d4bb4ff6b28383706d_large.jpg" data-src="//product.hstatic.net/1000075078/product/caramel-macchiato_143623_b580838a914048d4bb4ff6b28383706d_large.jpg" alt="caramel macchiato da"></a>
+                <h3>Kem cuộn</h3>
+                <div class="price">$100 <span>200</span></div>
+                <a href="#" class="btn">buy</a>
+            </div>
+            <div class="box">
+                <a href="/products/caramel-macchiato-nong" title="Caramel Macchiato Nóng"><img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/caramelmacchiatonong_168039_cf24362398084ac2af9fce3cf245d9b7_large.jpg" data-src="//product.hstatic.net/1000075078/product/caramelmacchiatonong_168039_cf24362398084ac2af9fce3cf245d9b7_large.jpg" alt="caramel macchiato nong"></a>
+                <h3>Kem cuộn</h3>
+                <div class="price">$100 <span>200</span></div>
+                <a href="#" class="btn">buy</a>
+            </div>
+            <div class="box">
+                <a href="/products/latte-da" title="Latte Đá"><img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/latte-da_438410_9b75161da81544eda4340515f84397e4_large.jpg" data-src="//product.hstatic.net/1000075078/product/latte-da_438410_9b75161da81544eda4340515f84397e4_large.jpg" alt="latte da"></a>
+                <h3>Kem cuộn</h3>
+                <div class="price">$100 <span>200</span></div>
+                <a href="#" class="btn">buy</a>
+            </div>
+            <div class="box">
+                <a href="/products/latte-nong" title="Latte Nóng"><img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/latte_851143_f86ddcd9518c400b8faa8d5491c6097d_large.jpg" data-src="//product.hstatic.net/1000075078/product/latte_851143_f86ddcd9518c400b8faa8d5491c6097d_large.jpg" alt="latte nong"></a>
+                <h3>Kem cuộn</h3>
+                <div class="price">$100 <span>200</span></div>
+                <a href="#" class="btn">buy</a>
+            </div>
+            <div class="box">
+                <a href="/products/americano-da" title="Americano Đá"><img class=" lazyloaded" src="//product.hstatic.net/1000075078/product/classic-cold-brew_791256_917d66162da042008f916eb149476c2e_large.jpg" data-src="//product.hstatic.net/1000075078/product/classic-cold-brew_791256_917d66162da042008f916eb149476c2e_large.jpg" alt="americano da"></a>
+                <h3>Kem cuộn</h3>
+                <div class="price">$100 <span>200</span></div>
+                <a href="#" class="btn">buy</a>
+            </div>
+            <div class="box">
+                <a href="/products/cappuccino-da" title="Cappuccino Đá"><img class=" ls-is-cached lazyloaded" src="//product.hstatic.net/1000075078/product/capu-da_487470_1d9c592fd64b45db86fcef1fe6ec2b72_large.jpg" data-src="//product.hstatic.net/1000075078/product/capu-da_487470_1d9c592fd64b45db86fcef1fe6ec2b72_large.jpg" alt="cappuccino da"></a>
                 <h3>Kem cuộn</h3>
                 <div class="price">$100 <span>200</span></div>
                 <a href="#" class="btn">buy</a>
             </div>
         </div>
     </section>
-
-    <!-- san pham -->
-    <section class="sanpham" id="sanpham">
-
-        <h1 class="heading"><span>sản phẩm</span> !!</h1>
-        <div class="box-container">
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="nen1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>tên coffee</h3>
-                    <div class="batdau">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">15.89 <span>$30</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="nen1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>coffee</h3>
-                    <div class="batdau">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">15.89 <span>$30</span></div>
-                </div>
-            </div>
-
-
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="nen1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>coffee</h3>
-                    <div class="batdau">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">15.89 <span>$30</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="nen1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>coffee</h3>
-                    <div class="batdau">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">15.89 <span>$30</span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- danh gia  -->
-
-    <section class="danhgia" id="danhgia">
-
-        <h1 class="heading"><span>ĐÁNH GIÁ</span> </h1>
-
-        <div class="box-container">
-            <div class="box">
-                <img src="trich.png" alt="" class="trichdan">
-                <p>👉 nội dung đánh giá và kiếm thêm ảnh người thật thay thế ảnh kia!</p>
-                <img src="nen1.jpg" alt="" class="khac">
-                <h3>ten nguoi</h3>
-                <div class="batdau">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="trich.png" alt="" class="trichdan">
-                <p>👉 nội dung đánh giá và kiếm thêm ảnh người thật thay thế ảnh kia!</p>
-                <img src="nen1.jpg" alt="" class="khac">
-                <h3>ten nguoi</h3>
-                <div class="batdau">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="trich.png" alt="" class="trichdan">
-                <p>👉 nội dung đánh giá và kiếm thêm ảnh người thật thay thế ảnh kia!</p>
-                <img src="nen1.jpg" alt="" class="khac">
-                <h3>ten nguoi</h3>
-                <div class="batdau">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--Het Menu-->
     <!-- liên hệ  -->
 
     <section class="lienhe" id="lienhe">

@@ -87,11 +87,13 @@ section {
     height: 6rem;
 }
 
-.header .navbar a {
+.header .navbar ul li {
     margin: 0 1rem;
     font-size: 1.6rem;
     color: #f5f3f3;
-}
+    float: left;
+    align-items: center;
+    }
 
 .header .navbar a:hover {
     color: var(--main-color);
@@ -913,10 +915,6 @@ section {
 .menu .box-container .box h3 {
     color: #fff;
     font-size: 2rem;
-    padding: 1rem 0;
-}
-.menu .box-container .box h4 {
-    color: #fff;
     padding: 1rem 0;
 }
 
