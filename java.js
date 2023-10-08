@@ -29,6 +29,5 @@ window.onscroll = () => {
     cartItem.classList.remove('active');
 }
 function redirectToBuyPage() {
-    // Chuyển hướng sang trang mua hàng (ví dụ: 'buy.html')
-    window.location.href = 'http://127.0.0.1:5500/main1.html';
+    window.location.href = 'main1.html';
   }
