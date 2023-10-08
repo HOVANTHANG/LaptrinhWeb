@@ -86,19 +86,63 @@ section {
 .header .logo img {
     height: 6rem;
 }
+ nav {
+    background-color: #0f1316;
+    color: white;
+    font-size: 15px;
+}
 
-.header .navbar ul li {
-    margin: 0 1rem;
-    font-size: 1.6rem;
-    color: #f5f3f3;
-    float: left;
-    align-items: center;
-    }
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
 
-.header .navbar a:hover {
-    color: var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
-    padding: .5rem;
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+.header .menu li{
+    position: relative;
+}
+.header .menu .submenu {
+    position: absolute;
+    background-color: black;
+    list-style: none;  
+    top: 59px;
+    display: none;
+    width: 100px;
+}
+
+.submenu-parent:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+    padding-top: 10px;
+}
+
+.submenu li a {
+    padding-top: 10px;
+    color: white;
+}
+
+.submenu li a:hover {
+    background-color: #555;
 }
 
 .header .icons div {
