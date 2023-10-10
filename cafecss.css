@@ -631,3 +631,29 @@ section {
 }
 
 
+.row{
+    background-color: white;
+    padding-top: 100px;
+    
+}
+.row .logo img{
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+.row .thongtin {
+    padding-top: 120px ;
+    padding-left: 50px;
+    align-items: center;
+    float: left;
+}
+.toping{
+    margin-top: 20px;
+}
+.dathang{
+    
+    margin-top: 40px;
+    background-color: rgb(193, 95, 15);
+    height: 40px;
+    border: 2px solid orange;
+}

@@ -28,6 +28,25 @@ window.onscroll = () => {
     searchFrom.classList.remove('active');
     cartItem.classList.remove('active');
 }
+
 function redirectToBuyPage() {
     window.location.href = 'main1.html';
   }
+  function redirectToBuyPage() {
+    window.location.href = 'main2.html';
+  }
+  function redirectToBuyPage() {
+    window.location.href = 'main3.html';
+  }
+  function redirectToBuyPage() {
+    window.location.href = 'main4.html';
+  }
+  function redirectToBuyPage() {
+    window.location.href = 'main5.html';
+  }
+  function redirectToBuyPage() {
+    window.location.href = 'main6.html';
+  }
+ function mymenu(){
+    window.location.href='main.html';
+ }
